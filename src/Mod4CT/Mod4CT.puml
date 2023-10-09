@@ -1,0 +1,32 @@
+@startuml
+ShapeArray - Shape
+
+Shape  <|-- Sphere
+Shape  <|-- Cylinder
+Shape  <|-- Cone
+
+class Sphere {
+    Surface Area
+    Volume
+}
+
+class Cylinder {
+    Surface Area
+    Volume
+}
+
+
+class Cone {
+    Surface Area
+    Volume
+}
+
+class ShapeArray {
+    Instantiates Math
+    and outputs to
+    an Array
+}
+
+abstract class Shape
+
+@enduml
