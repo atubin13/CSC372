@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Added UML for Mod4CT">
-      <change afterPath="$PROJECT_DIR$/src/Mod4CT/RecursiveCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" afterDir="false" />
+    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod5CT initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696880014261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mod5CT initial commit">
+      <created>1698025141658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698025141658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +258,7 @@
     <MESSAGE value="Mod3CT Added" />
     <MESSAGE value="Mod4CT added with 3 classes, 1 driver and 1 abstract class" />
     <MESSAGE value="Added UML for Mod4CT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UML for Mod4CT" />
+    <MESSAGE value="Mod5CT initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod5CT initial commit" />
   </component>
 </project>

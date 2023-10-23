@@ -3,25 +3,30 @@ package Mod5CT;
 import java.util.Scanner;
 
 public class RecursionSumCalc {
+    private static final int inputs = 5;
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Scanner for inputs
+        double[] numbers = new double[inputs];
 
-        System.out.println("Enter 5 numbers, one at a time: "); // User instruction
-        int[] numbers = new int[5]; // Create the list
-        int currentIndex = 0;
+        System.out.println("Please enter five numbers, one at a time:"); // User input integers
+        enterNumbers(numbers, 0);
 
-        while (currentIndex < 5) { // If statement to initiate recursion
-            System.out.println("Enter number " + (currentIndex + 1) + ": "); //User input
-            numbers[currentIndex] = scanner.nextInt();
-            currentIndex++;
+        double sum = calcSum(numbers, 0);
+
+        System.out.println("The sum of the five numbers is: " + sum); // Sum of user input integers
+    }
+
+    public static void enterNumbers(double[] numbers, int index) {
+        if (index < inputs) {
+            System.out.print("Enter number " + (index + 1) + ": "); // Iterate through the loop
+            numbers[index] = scanner.nextDouble();
+            enterNumbers(numbers, index + 1);
         }
+    }
 
-            int sum = calcSum(numbers, 0); // Print the sum when recursion is complete
-            System.out.println("the sum of the five numbers is: " + sum);
-        }
-
-    public static int calcSum(int[] numbers, int index) {
-        if (index == numbers.length -1) {
+    public static double calcSum(double[] numbers, int index) {
+        if (index == inputs - 1) {
             return numbers[index];
         } else {
             return numbers[index] + calcSum(numbers, index + 1);
