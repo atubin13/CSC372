@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class RecursionSumCalc {
     private static final int inputs = 5;
     private static final Scanner scanner = new Scanner(System.in);
+    private static final double[] numbers = new double[inputs];
 
     public static void main(String[] args) {
-        double[] numbers = new double[inputs];
-
         System.out.println("Please enter five numbers, one at a time:"); // User input integers
         enterNumbers(numbers, 0);
 

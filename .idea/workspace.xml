@@ -4,8 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod5CT initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod5CT rewrote program to not pass variables outside the method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" afterDir="false" />
     </list>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698025141658</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mod5CT rewrote program to not pass variables outside the method">
+      <created>1698027027281</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698027027281</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +265,7 @@
     <MESSAGE value="Mod4CT added with 3 classes, 1 driver and 1 abstract class" />
     <MESSAGE value="Added UML for Mod4CT" />
     <MESSAGE value="Mod5CT initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod5CT initial commit" />
+    <MESSAGE value="Mod5CT rewrote program to not pass variables outside the method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod5CT rewrote program to not pass variables outside the method" />
   </component>
 </project>
