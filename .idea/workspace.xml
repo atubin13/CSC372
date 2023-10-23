@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod4CT added with 3 classes, 1 driver and 1 abstract class">
-      <change afterPath="$PROJECT_DIR$/src/Mod4CT/Mod4CT.puml" afterDir="false" />
+    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Added UML for Mod4CT">
+      <change afterPath="$PROJECT_DIR$/src/Mod4CT/RecursiveCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mod5CT/RecursionSumCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="UML Sequence" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +44,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,6 +55,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -65,20 +71,7 @@
       <recent name="Mod3CT" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeArray">
-    <configuration name="Cone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mod4CT.Cone" />
-      <module name="CSC372" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mod4CT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RecursionSumCalc">
     <configuration name="Cylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mod4CT.Cylinder" />
       <module name="CSC372" />
@@ -105,8 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mod4CT.Sphere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mod4CT.Sphere" />
+    <configuration name="RecursionSumCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod5CT.RecursionSumCalc" />
+      <module name="CSC372" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mod5CT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod4CT.RecursiveCalls" />
       <module name="CSC372" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInterfaceJavaFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mod3CT.UserInterfaceJavaFX" />
+    <configuration name="countDownTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod4CT.countDownTimer" />
       <module name="CSC372" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\chels\OneDrive\Adam\OneDrive\CSU Global\Term 11\CSC372\CSC372\javafx-sdk-21\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mod3CT.*" />
+          <option name="PATTERN" value="Mod4CT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,18 +152,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Mod3CT.userInterface" />
-      <item itemvalue="Application.Cone" />
+      <item itemvalue="Application.RecursionSumCalc" />
+      <item itemvalue="Application.RecursiveCalls" />
+      <item itemvalue="Application.countDownTimer" />
       <item itemvalue="Application.Cylinder" />
-      <item itemvalue="Application.Mod4CT.Sphere" />
       <item itemvalue="Application.ShapeArray" />
-      <item itemvalue="Application.UserInterfaceJavaFX" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionSumCalc" />
+        <item itemvalue="Application.RecursiveCalls" />
+        <item itemvalue="Application.countDownTimer" />
         <item itemvalue="Application.ShapeArray" />
         <item itemvalue="Application.Cylinder" />
-        <item itemvalue="Application.Mod4CT.Sphere" />
-        <item itemvalue="Application.UserInterfaceJavaFX" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696877978637</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added UML for Mod4CT">
+      <created>1696880014261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696880014261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +247,7 @@
     <MESSAGE value="Added AgeCalculatorApp" />
     <MESSAGE value="Mod3CT Added" />
     <MESSAGE value="Mod4CT added with 3 classes, 1 driver and 1 abstract class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod4CT added with 3 classes, 1 driver and 1 abstract class" />
+    <MESSAGE value="Added UML for Mod4CT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added UML for Mod4CT" />
   </component>
 </project>
