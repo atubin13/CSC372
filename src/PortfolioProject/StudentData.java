@@ -69,9 +69,9 @@ public class StudentData {
 }
 
 class Student {
-    private String name;
-    private String address;
-    private double gpa;
+    private final String name;
+    private final String address;
+    private final double gpa;
 
     public Student(String name, String address, double gpa) {
         this.name = name;
