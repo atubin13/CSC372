@@ -4,10 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod5CT final commit">
-      <change afterPath="$PROJECT_DIR$/src/Mod6CT/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mod6CT/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mod6CT/StudentSorter.java" afterDir="false" />
+    <list default="true" id="93a6f866-4872-4875-8947-b8a75b7a1b79" name="Changes" comment="Mod6CT Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/PortfolioProject/StudentData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698081133594</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Mod6CT Initial Commit">
+      <created>1698588122149</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698588122149</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +293,7 @@
     <MESSAGE value="Mod5CT initial commit" />
     <MESSAGE value="Mod5CT rewrote program to not pass variables outside the method" />
     <MESSAGE value="Mod5CT final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod5CT final commit" />
+    <MESSAGE value="Mod6CT Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod6CT Initial Commit" />
   </component>
 </project>
